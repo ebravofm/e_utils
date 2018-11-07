@@ -6,7 +6,6 @@ setup(
     url='https://github.com/ebravofm/e_utils',
     author='Emilio Bravo',
     author_email='ebravofm@gmail.com',
-    scripts=['e_utils'],
     # Needed to actually package something
     packages=['e_utils'],
     # Needed for dependencies
