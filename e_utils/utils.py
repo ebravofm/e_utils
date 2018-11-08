@@ -3,6 +3,7 @@ import unidecode
 from leven import levenshtein
 import numpy as np
 from sklearn.cluster import dbscan
+import pandas as pd
 
 
 def filename(s):
