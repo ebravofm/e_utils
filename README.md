@@ -47,9 +47,9 @@ Takes a pandas dataframe or series and homogenizes each row matching similar str
 
 >>> series2 = clean_df(series)
 >>> series2 = homog_lev(series2, eps=3)
->>> pd.concat([series, series2.str.title()], axis=1)
+>>> pd.concat([series, series2.str.title()], axis=1, keys=['*Original*', '*Fixed*'])
 
-               0             1
+      *Original*       *Fixed*
 0      Bad Bunny     Bad Bunny
 1       bad buny     Bad Bunny
 2    bag bunny       Bad Bunny
