@@ -31,16 +31,16 @@ Takes a pandas dataframe or series and homogenizes each row matching similar str
 >>> series
 0        Bad Bunny
 1         bad buny
-2        bag bunny
+2      bag bunny
 3            Ozuna
 4     De La Ghetto
-5       de la geto
+5      de la geto
 6     Daddy Yankee
 7      dade yankee
 8        Nicky Jam
 9        nicky jam
 10        J Balvin
-11         jbalvin
+11        jbalvin
 12          Maluma
 13          maluma
 14        Anuel AA
