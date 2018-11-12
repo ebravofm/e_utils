@@ -2,7 +2,12 @@
 
 Miscellaneous utilities I sometimes use.
 
-## Filename
+## Installing
+```python
+pip install git+https://github.com/ebravofm/e_utils.git
+```
+
+## Filename()
 Takes any string and returns a new string that is valid for naming files. 
  + Removes accents and tildes.
  + Removes invalid characters.
@@ -15,13 +20,13 @@ Takes any string and returns a new string that is valid for naming files.
 
 'La_vie_dAdele_(2003).mp4'
 ```
-## Clean_DF
+## Clean_df()
 Takes a pandas dataframe or series and homogenizes each row by doing the following vector actions:
  + Applies lower case
  + Strips leading and trailing spaces
  + Removes accents and tildes
 
-## Homog_lev
+## Homog_lev()
 Takes a pandas dataframe or series and homogenizes each row matching similar strings and naming them the same. The module uses levenshtein distance to compare the strings to each other, by default, strings that are one single-character edit away are taken as the same. The module takes de levenshtein distance matrix, creates clusters and renames all the elements within the cluster the same. This module uses scikitlearn's DBSCAN.
 
 ```python
