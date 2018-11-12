@@ -52,16 +52,16 @@ Takes a pandas dataframe or series and homogenizes each row matching similar str
                0             1
 0      Bad Bunny     Bad Bunny
 1       bad buny     Bad Bunny
-2      bag bunny     Bad Bunny
+2    bag bunny       Bad Bunny
 3          Ozuna         Ozuna
 4   De La Ghetto  De La Ghetto
-5     de la geto  De La Ghetto
+5    de la geto   De La Ghetto
 6   Daddy Yankee  Daddy Yankee
 7    dade yankee  Daddy Yankee
 8      Nicky Jam     Nicky Jam
 9      nicky jam     Nicky Jam
 10      J Balvin      J Balvin
-11       jbalvin      J Balvin
+11      jbalvin       J Balvin
 12        Maluma        Maluma
 13        maluma        Maluma
 14      Anuel AA      Anuel Aa
