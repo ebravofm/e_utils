@@ -7,7 +7,7 @@ setup(
     author_email='ebravofm@gmail.com',
     # Needed to  package something
     packages=['e_utils'],
-    install_requires=['numpy', 'pandas', 'leven', 'sklearn', 'unidecode'],
+    install_requires=[],
     version='0.1',
     license='MIT',
     description='Random Utilities',
